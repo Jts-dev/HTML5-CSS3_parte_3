@@ -211,8 +211,24 @@ form label, form legend{
 
 .enviar:hover{
 	transition :1s all;
-	transform: scale(360%) rotate(70deg); 
+	transform: scale(120%)  rotate(180deg); 
 	background: darkorange;
 
 }
 
+
+
+table{
+	margin: 20px 0px 40px;
+}
+
+thead{
+	background: #555555;
+	color : #ffffff;
+	font-weight: bold;
+}
+
+td, th{
+	border: 1px solid #000000;
+	padding:  8px 15px;
+}
