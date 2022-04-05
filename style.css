@@ -90,11 +90,17 @@ footer {
 	margin: 20px 0 0;
 }
 
-/* Página de contato */
+/* Página de contato 
 .contato {
 	width: 940px;
 	margin: 40px auto;
 }
+
+main {
+	width: 940px;
+	margin: 40px auto;
+}
+
 
 .contato label, .input-group legend {
 	display: block;
@@ -154,4 +160,32 @@ th  {
 td, th {
 	border: 1px solid #000000;
 	padding: 5px 20px;
+}
+
+
+*/
+
+
+
+main{
+	width: 940px;
+	margin:0  auto;
+}
+
+
+form{
+	margin: 40px auto;
+}
+
+form label{
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+form input{	
+	display: block;
+	width: 50%;
+	margin: 0 0 20px;
+	padding: 10px 20px;
 }
